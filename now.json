@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "lambda-project",
+  "alias": ["sprint-applied-js.now.sh"],
+  "public": true
+}
