@@ -7,7 +7,7 @@
     "serve": "serve .",
     "build": "lessc ./LESS/index.less ./CSS/index.css",
     "less": "less-watch-compiler less css index.less",
-    "bs": "browser-sync --port 69 --host gw-mb.local --no-open --no-notify",
+    "bs": "browser-sync --files '**/*.js, *.html' --port 69",
     "start": "concurrently \"npm run bs\" \"npm run less\"",
     "deploy": "now alias"
   },
